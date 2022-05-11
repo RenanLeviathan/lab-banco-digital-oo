@@ -16,3 +16,9 @@ Permite que você defina uma classe filha que reutiliza (herda), estende ou modi
 
 ### Polimorfismo
 Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica. Cuidado, polimorfismo não quer dizer que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar é a maneira como nos referimos a ele.
+
+## Notas de Renan Duarte
+### Novas Features
+- Para utilzar conceitos sobre polimorfismo, encapsulamento e reutilização de código, adicionei as classes Extrato e Transacao. A classe _Extrato_ utiliza conceitos aprendidos sobre LinkedList para garantir a ordem dos registros dos eventos (saque, depósito e transferência), além de registrar o que foi feito de maneira humanamente inteligível. Essa classe utiliza o conceito de agregação ao utilizar objetos da classe _Transacao_.
+- Adiçao de telinha de splash, para deixar o projeto com cara de aplicação real.
+P. S. O projeto foi carinhosamente apelidado de "DIO Bank".
